@@ -5,7 +5,7 @@ const pessoasRota = require('./rotas/pessoasRota')
 const server = restify.createServer()
 
 server.use(restify.plugins.queryParser())
-server.use(restify.plugins.queryParser())
+server.use(restify.plugins.bodyParser())
 
 homeRota(server)
 pessoasRota(server)
