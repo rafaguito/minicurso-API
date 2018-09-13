@@ -1,6 +1,14 @@
 const restify = require('restify')
+const homeRota = require('./rotas/homeRota')
+const pessoasRota = require('./rotas/pessoasRota')
 
 const server = restify.createServer()
+
+server.use(restify.plugins.queryParser())
+server.use(restify.plugins.queryParser())
+
+homeRota(server)
+pessoasRota(server)
 
 const msgServidorOn = () => {
 	console.log('Servidor rodando...')
