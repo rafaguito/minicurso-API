@@ -1,0 +1,27 @@
+{
+  "name": "minicurso-api",
+  "version": "1.0.0",
+  "description": "uma api em nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaguito/minicurso-API.git"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "encomp2018"
+  ],
+  "author": "Rafael Oliveira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaguito/minicurso-API/issues"
+  },
+  "homepage": "https://github.com/rafaguito/minicurso-API#readme",
+  "dependencies": {
+    "restify": "^7.2.1"
+  }
+}
